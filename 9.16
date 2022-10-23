@@ -1,0 +1,10 @@
+''' Type your code here. '''
+l = input()
+l = l.split()
+if len(l) > 9:
+    print('Too many inputs')
+else:
+    ind = (len(l)-1) / 2
+    ind = int(ind)
+    fml = l[ind]
+    print(fml)
